@@ -1,0 +1,179 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	text-align: center;
+	list-style: none;
+	text-decoration: none;
+	font-family: "苹方 sans-serif";
+	box-sizing: border-box;
+}
+header{
+	width: 100%;
+	/* background: rgba(0, 0, 0,0.5); */
+}
+.headerTitle{
+	width: 1200px;
+	height: 85px;
+	margin: 0 auto;
+	line-height: 85px;
+}
+.headerLeft{
+	float: left;
+}
+.headerLeft span{
+	/* color: #fff; */
+	padding-left: 5px;
+}
+.headerLeft i{
+	display: inline-block;
+	font-weight: bold;
+	font-size: 38px;
+	color: #19bb9b;
+}
+.headerRight{
+	float: right;
+}
+.headerRight ul li{
+	float: left;
+}
+.headerRight ul li a:hover{
+	color: #fff;
+	background: #19bb9b;
+}
+.headerRight ul li a{
+	font-weight: bold;
+	/* font-weight: bold; */
+	padding:15px;
+	color: #19bb9b;
+	font-size: 14px;
+	transition: all 0.8s;
+}
+.headerRight ul li:nth-child(6) a{
+	color: #fff;
+	background: #19bb9b;
+}
+.banner{
+	width: 100%;
+	height: 488px;
+	background: url('../img/banner2-1.jpg');
+	position: relative;
+	transition: all 0.8s;
+}
+.bannerCon{
+	height: 100px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	color: #fff;
+}
+.bannerCon p{
+	font-weight: bold;
+	font-size: 90px;
+    line-height: 112px;
+    letter-spacing: 5px;
+}
+.bannerCon span{
+	font-size: 25px;
+    letter-spacing: 5px;
+    line-height: 35px;
+}
+.bannerB{
+	width: 100%;
+	height:52px;
+	background: #19bb9b;
+}
+.bannerB p{
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+	text-align: left;
+	line-height: 52px;
+}
+.bannerB a{
+	color: #fff;
+}
+.bannerB a:hover{
+	text-decoration: underline;
+}
+
+
+
+.content{
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.contentRight{
+	padding-top: 65px;
+    padding-left: 280px;
+}
+
+.contactbox{
+	padding: 50px 0;
+
+}
+iframe{
+	margin: 0 auto;
+}
+.contactbox p{
+	padding-top: 20px;
+	font-size:25px;
+	color: #19bb9b;
+	font-weight: 500;
+}
+.contactbox ul li{
+	padding-top: 5px;
+    font-size: 14px;
+    color: #949090;
+}
+
+
+
+
+
+
+
+
+
+
+
+footer{
+	width: 100%;
+	padding-top: 60px;
+	overflow: hidden;
+	padding-bottom: 30px;
+	background:  #19bb9b;
+}
+.footerLeft{
+	color: #fff;
+	text-align: left;
+	float: left;
+}
+.footerLeft ul p{
+	padding: 10px 0;
+	text-align: left;
+	font-size: 16px;
+}
+.footerLeft ul li{
+	text-align: left;
+	padding-top:5px;
+	font-size: 14px;
+}
+.footerR{
+	float: right;
+	width: 200px;
+	height: 116px;
+	line-height: 30px;
+
+	border: 1px solid #fff;
+}
+.footerR span{
+	color: #fff;
+	display: inline-block;
+    padding-top: 30px;
+}

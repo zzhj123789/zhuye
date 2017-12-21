@@ -1,0 +1,30 @@
+/*
+* @Author: Administrator
+* @Date:   2017-04-18 17:42:39
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-04-25 09:52:23
+*/
+*{
+	margin: 0px;
+	padding: 0px;
+	outline: none;
+	box-sizing: border-box;
+}
+
+body{
+    background: white;
+}
+
+img{
+	width: 100%;
+	height: 100%;
+}
+
+ol, li, ul {
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+	color: #999;
+}

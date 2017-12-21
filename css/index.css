@@ -1,0 +1,400 @@
+.first{
+    width:100%;
+    height:100%;
+    position: absolute;
+    left: 0;
+    top:0;
+    background-image: url("../img/1.jpg");
+    background-size: cover;
+
+}
+*{
+    margin:0;
+    padding:0;
+
+}
+.mask{
+    width:100%;
+    height: 100%;
+    background: rgba(251, 255, 254, 0.2);
+    position: absolute;
+    left:0;
+    top:0;
+    padding-top:150px;
+}
+.mask1{
+    width:100%;
+    height: 100%;
+    background: rgba(251, 255, 254, 0.7);
+    position: absolute;
+    left:0;
+    top:0;
+    padding-top:50px ;
+}
+#menu{
+    width:100%; position: fixed; left: 0px;  z-index: 70;
+    height:60px;
+    display: flex;
+    justify-content:center;
+    line-height: 60px;
+    background: #000000;
+    color: #fff;
+}
+#menu li{
+    margin:0 40px;
+}
+#menu li a{
+    color:#fff;
+}
+#menu li.active a{
+    color: #0907ff;
+    font-size: 30px;
+    font-weight: 300;
+}
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+    text-decoration: none;
+}
+.bottomIn{
+    animation:bottomIn .4s cubic-bezier(0.195, 0, 0.735, 1);
+    display: block;
+}
+.mask h1{
+    color: #fff;
+    font-size: 50px;
+    font-weight:500;
+    text-align: center;
+    margin-top:30px;
+}
+.zk{
+    width:580px;
+    height:35px;
+    color: #fbeaff;
+    font-size: 35px;
+    position: absolute;
+    left:0;
+    bottom:240px;
+    right:0;
+    margin: auto;
+
+}
+.boximg{
+    width:150px;
+    height:150px;
+    border-radius: 50%;
+    position: absolute;
+    background-image: url("../img/tx.jpg");
+    left:0;
+    bottom:0;
+    top:0;
+    right:0;
+    margin: auto;
+}
+.border1{
+    border-bottom: 3px solid #9dffba;
+    border-left: 3px solid #9dffba;
+    border-top: 3px solid #9dffba;
+    border-right: 3px solid rgba(0,0,0,0);
+    width:170px;
+    height:170px;
+    border-radius: 50%;
+    position: absolute;
+    top:0px;
+    left:0;
+    bottom:0;
+    right:0;
+    margin: auto;
+
+}
+.border2{
+    border-bottom: 4px solid #faff46;
+    border-left: 4px solid #faff46;
+    border-right: 4px solid #faff46;
+    border-top: 4px solid rgba(0,0,0,0);
+    width:210px;
+    height:210px;
+    border-radius: 50%;
+
+    position: absolute;
+    top:0px;
+    left:0;
+    bottom:0;
+    right:0;
+    margin: auto;
+
+}
+@keyframes xz {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.xz{
+    animation: xz 1s linear infinite forwards;
+}
+.nk{
+    width:600px;
+    height:400px;
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    margin:auto
+}
+
+
+.tubox{
+    width:400px;
+    height:300px;
+    background-size: cover;
+    position: absolute;
+    top:0px;
+    left:0;
+    bottom:0;
+    right:0;
+    margin: auto;
+}
+.tu-top{
+    width:100%;
+    height:230px;
+    background: red;
+}
+.tu-top img{
+    width: 100%;
+    height:100%;
+}
+.dier{
+    width:100%;
+    height:100%;
+    background-image: url("../img/21.jpg");
+
+}
+.sbimg{
+
+    width:100%;
+    height:70px;
+    background: #000;
+    position: absolute;
+    left:0;
+    bottom:0;
+}
+.sbimg .tk{
+    width:36px;
+    height:70px;
+    float: left;
+    margin-left:182px;
+}
+.tk img{
+    width: 36px;
+    height:70px;
+}
+.sbimg #zk{
+    height:70px;
+    width:120px;
+    float:right;
+}
+#zk h1{
+    font-size: 27px;
+    color: #f4d03f;
+}
+#zk span{
+    color: #fff;
+}
+#zk h2{
+    color: #fff;
+    font-size:18px;
+}
+@keyframes bianhua {
+    0%{
+        width:400px;
+        height:70px;
+    }
+    100%{
+        width:190px;
+        height:210px;
+        left:-100px;
+        top:-50px;
+
+    }
+}
+.bianhua{
+    animation: bianhua 2s forwards;
+}
+.left-bottom{
+    width:190px;
+    height:180px;
+    background:#F4D03F;
+    position: absolute;
+    left:0;
+    top:350px;
+    display: none;
+
+
+}
+.left-bottom li{
+
+    width:100%;
+    height:40px;
+    background-color: #F4D03F;
+    color: #717171;
+}
+.left-bottom li:hover{
+    background-color: #000;
+    color: #F4D03F;
+}
+.left-bottom h4{
+    margin-left: 20px;
+}
+.left-bottom span{
+    font-size: 14px;
+
+}
+.txk{
+    width:120px;
+    height:120px;
+    border-radius:50% ;
+    background-image: url("../img/tx.jpg");
+    background-size:cover ;
+    position: absolute;
+    left:0;
+    right:0;
+    margin: auto;
+    top:80px;
+    display: none;
+
+
+}
+.right-top{
+    width:400px ;
+    height:120px;
+    background: #000;
+    display: none;
+    position:absolute;
+    top:-150px;
+    left:200px;
+}
+.right-top h1{
+    color:  #F4D03F;
+    margin-left:30px;
+    margin-top:70px;
+}
+.right-top h1 span{
+    font-size: 32px;
+    color: #fff;
+}
+.right-bottom{
+    width:400px;
+    height:270px;
+    background-color: #fff;
+    position:absolute;
+    top:130px;
+    left:350px;
+    display: none;
+}
+.right-bottom h3,h4,h5{
+    margin-left:30px;
+    margin-top: 10px;
+}
+.right-bottom h3{
+    color: #000;
+}
+.right-bottom h4{
+    color: rgba(0, 0, 0, 0.49);
+}
+.right-bottom h5{
+    color: rgba(12, 12, 12, 0.39);
+}
+.rrrrk{
+    width: 120px;
+    height:200px;
+    background: url("../img/111.gif");
+    position: absolute;
+    right:0;
+    bottom:0;
+    background-size: cover;
+
+}
+
+
+
+
+.zhezhaozhao{
+    background: rgba(0, 0, 0, 0.56);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+    top:0;
+    bottom: 0;
+    margin: auto;
+}
+.ziwo{
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto 50px;
+    position: relative;
+}
+.ziwo h1{
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    /*animation:xiangxia 1s;*/
+    top:20%;
+    left: -1000px;
+    /*display: none;*/
+}
+.ziwo .jindutiao{
+    width: 1000px;
+    height: 300px;
+    /*background: #fff;*/
+    position: absolute;
+    top: 40%;
+}
+.jindu{
+    width: 200px;
+    height: 100%;
+    float: left;
+}
+.jindu2{
+    width: 200px;
+    height: 100%;
+    margin: 0 auto;
+}
+.jindu3{
+    width: 200px;
+    height: 100%;
+    float: right;
+}
+.jindutiao p{
+    color: #ff3c86;
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+}
+@keyframes xiangxia {
+    0% {
+        left: -1000px;
+    }
+    100% {
+        left: 0;
+    }
+}
+#lianxi{
+    background: #80B9EF;
+}
+.lxk{
+    width:704px;
+    height:501px;
+    position: absolute;
+    left:0;
+    top:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+}

@@ -1,0 +1,26 @@
+/*
+* @Author: Administrator
+* @Date:   2017-04-18 17:42:39
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-04-19 10:47:28
+*/
+*{
+	margin: 0px;
+	padding: 0px;
+
+	outline: 0px;
+}
+
+img{
+	width: 100%;
+	height: 100%;
+}
+
+ol, li, ul {
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
